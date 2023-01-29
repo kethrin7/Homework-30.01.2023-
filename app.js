@@ -12,3 +12,55 @@ function sum(arr) {
 }
 
 sum(numbers);
+
+
+
+//5. Create a variable called "day" and assign it a string value representing a day of the week (e.g. "Monday").
+// Use a switch statement to check the "day" variable and use the console.log function to print the following:
+// If the day is "Monday" or "Tuesday" or "Wednesday" or "Thursday" or "Friday", print "It's a weekday."
+// If the day is "Saturday" or "Sunday", print "It's a weekend!"
+// If the day is any other value, print "Invalid day."
+
+// მე დავწერე ასე
+
+const day = `Sunday`;
+
+switch (day) {
+  case `Monday`: console.log("It's a weekday.")
+    break;
+  case `Tuesday`:console.log("It's a weekday.");
+    break;
+  case `Wednesday`:console.log("It's a weekday.");
+    break;
+  case `Thursday`:console.log("It's a weekday.");
+    break;
+  case `Friday`:console.log("It's a weekday.");
+    break;
+  case `Saturday`:console.log("It's a weekend!");
+    break;
+  case `Sunday`:console.log("It's a weekend!");
+    break;
+
+  default: console.log("Invalid day.")
+    break;
+};
+
+// უკეთესი ვარიანტია ეს >>>>>>>>>>>> Shorthand <<<<<<<<<<<<<<<<<
+
+let day = "Friday";
+
+switch (day) {
+  case "Monday":
+  case "Tuesday":
+  case "Wednesday":
+  case "Thursday":
+  case "Friday":
+    console.log("It's a weekday.");
+    break;
+  case "Saturday":
+  case "Sunday":
+    console.log("It's a weekend!");
+    break;
+  default:
+    console.log("Invalid day.");
+}
