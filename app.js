@@ -12,3 +12,21 @@ function sum(arr) {
 }
 
 sum(numbers);
+
+
+// 2.Create a program that takes a string and returns the number of vowels in the string. Use a for loop to iterate over the string, and use an if statement to check if each character is a vowel.
+
+  const vowels = "aeiou";
+
+function allVowels(str) {
+  let all = 0;
+  for (let i = 0; i < str.length; i++) {
+    if (vowels.indexOf(str[i]) !==-1) {
+      all++;
+    }
+  }
+  return all;
+}
+
+let testString = "This is a test string";
+console.log(allVowels(testString)); 
