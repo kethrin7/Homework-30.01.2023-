@@ -16,18 +16,20 @@ sum(numbers);
 
 // 3.Create a program that takes an array of strings and returns an array of the same strings in reverse order. Use a for loop to iterate over the array in reverse order and add each string to a new array.
 
-function reverseArray(arr) {
-  let originalArray = ["kiwi", "cherry", "orange"];
-  let reverseArr = [];
-  for (let i = arr.length - 1; i >= 0; i--) {
-    reversedArr.push(arr[i]);
-  }
-  return reverseArr;
-}
-console.log(reverseArray(originalArray)); 
-
-
 // arrow function
 const reverseArray = (arr) => arr.reverse();
 let originalArray = ["kiwi", "cherry", "orange"];
 console.log(reverseArray(originalArray));
+
+// const originalArray = ["kiwi", "cherry", "orange"];
+
+// function reversedArray(arr) {
+//   let reversedArr = [];
+//   for (let i = arr.length - 1; i >= 0; i--) {
+//     reversedArr.push(arr[i]);
+//   }
+//   return reversedArr;
+// }
+
+// console.log(reversedArray(originalArray));
+
