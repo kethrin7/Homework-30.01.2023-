@@ -11,7 +11,7 @@ function sum(arr) {
   console.log(num);
 }
 
-sum(numbers);
+console.log(sum(numbers));
 
 
 // 2.Create a program that takes a string and returns the number of vowels in the string. Use a for loop to iterate over the string, and use an if statement to check if each character is a vowel.
