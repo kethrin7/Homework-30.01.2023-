@@ -8,7 +8,7 @@ function sum(arr) {
     num += arr[i];
   }
 
-  console.log(num);
+ return total;
 }
 
-sum(numbers);
+console.log(sum(numbers));
