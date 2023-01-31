@@ -3,15 +3,16 @@
 const numbers = [20, 30, 65, 87, 67, 108];
 
 function sum(arr) {
-  let num = 0;
+  let result = 0;
   for (let i = 0; i < arr.length; i++) {
-    num += arr[i];
+    result += arr[i];
   }
 
-  console.log(num);
+  return result;
 }
 
 console.log(sum(numbers));
+
 
 
 // 2.Create a program that takes a string and returns the number of vowels in the string. Use a for loop to iterate over the string, and use an if statement to check if each character is a vowel.
