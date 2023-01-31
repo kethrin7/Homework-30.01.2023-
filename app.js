@@ -20,7 +20,6 @@ sum(numbers);
 // If the temperature is between 32 and 50, use the console.log function to print "It's chilly outside."
 // If the temperature is between 51 and 70, use the console.log function to print "It's comfortable outside."
 // If the temperature is greater than 70, use the console.log function to print "It's hot outside!"
-// let temp = 68;
 
 const temp=70;
 if(temp<32){
