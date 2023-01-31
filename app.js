@@ -21,8 +21,6 @@ sum(numbers);
 // If the day is "Saturday" or "Sunday", print "It's a weekend!"
 // If the day is any other value, print "Invalid day."
 
-// მე დავწერე ასე
-
 const day = `Sunday`;
 
 switch (day) {
@@ -45,11 +43,11 @@ switch (day) {
     break;
 };
 
-// უკეთესი ვარიანტია ეს >>>>>>>>>>>> Shorthand <<<<<<<<<<<<<<<<<
+// better way >>>>>>>>>>>> Shorthand <<<<<<<<<<<<<<<<<
 
-let day = "Friday";
+let goodDay = "Friday";
 
-switch (day) {
+switch (goodDay) {
   case "Monday":
   case "Tuesday":
   case "Wednesday":
